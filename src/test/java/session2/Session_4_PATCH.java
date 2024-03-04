@@ -1,10 +1,11 @@
 package session2;
 
-import org.json.simple.JSONObject;
+
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import net.minidev.json.JSONObject;
 
 public class Session_4_PATCH
 {

@@ -1,10 +1,11 @@
 package session2;
 
-import org.json.simple.JSONObject;
+
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import net.minidev.json.JSONObject;
 
 public class Session_2_PUT {
   @Test
@@ -23,4 +24,5 @@ public class Session_2_PUT {
 	  then().statusCode(200).log().all();
   }
 }
+//Application/json
 

@@ -9,7 +9,8 @@ public class BasicHTTPRequest
 {
 	
 	@Test
-	public void Test01(){
+	public void Test01()
+	{
 		Response response = RestAssured.get("https://reqres.in/api/users/2");  
 		//https://reqres.in :- Base URI
 		//api/user:- Resource 

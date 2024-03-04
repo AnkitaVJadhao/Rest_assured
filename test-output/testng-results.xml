@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-04T16:46:54 IST" name="Default suite" finished-at="2024-01-04T16:46:58 IST" duration-ms="4128">
+  <suite started-at="2024-02-18T17:51:25 IST" name="Default suite" finished-at="2024-02-18T17:51:25 IST" duration-ms="593">
     <groups>
     </groups>
-    <test started-at="2024-01-04T16:46:54 IST" name="Default test" finished-at="2024-01-04T16:46:58 IST" duration-ms="4128">
-      <class name="session4.Authentication_Study">
-        <test-method signature="token()[pri:0, instance:session4.Authentication_Study@158da8e]" started-at="2024-01-04T16:46:54 IST" name="token" finished-at="2024-01-04T16:46:58 IST" duration-ms="4061" status="PASS">
+    <test started-at="2024-02-18T17:51:25 IST" name="Default test" finished-at="2024-02-18T17:51:25 IST" duration-ms="593">
+      <class name="session6.day_2">
+        <test-method signature="postRequestfile()[pri:0, instance:session6.day_2@61884cb1]" started-at="2024-02-18T17:51:25 IST" name="postRequestfile" finished-at="2024-02-18T17:51:25 IST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- token -->
-      </class> <!-- session4.Authentication_Study -->
+        </test-method> <!-- postRequestfile -->
+      </class> <!-- session6.day_2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

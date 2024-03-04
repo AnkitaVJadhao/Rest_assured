@@ -1,7 +1,7 @@
 package session4;
 
 
-import org.json.simple.JSONObject;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,6 +11,12 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class Authentication_Study {
+	//Check user valid or not 
+	//Who r u?
+	//which type of user ? according to that provide permission 
+	//Authorize:- what can u do?
+	//u have access then check what can u do? 
+	
   @Test
   public void basicAuth() 
   {
@@ -70,5 +76,6 @@ public class Authentication_Study {
   }
   
   //API token :- 
+  
   
 }
